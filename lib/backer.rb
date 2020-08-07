@@ -10,7 +10,7 @@ class Backer
   
   def backed_projects 
     ProjectBacker.all.select do |projectbacker|
-      backer == self
+      projectbacker.backer == self
     end 
     
   end 
