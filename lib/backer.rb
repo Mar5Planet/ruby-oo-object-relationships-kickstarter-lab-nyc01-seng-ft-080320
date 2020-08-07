@@ -9,7 +9,8 @@ class Backer
   end 
   
   def backed_projects 
-    
+    ProjectBacker.all.select do |project|
+    end 
     
   end 
 end 
