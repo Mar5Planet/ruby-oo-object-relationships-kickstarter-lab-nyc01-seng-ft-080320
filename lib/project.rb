@@ -14,7 +14,7 @@ class Project
       projectbacker.project == self 
     end
     pb.map do |pb_instance|
-      pb.backer
+      pb_instance.backer
     end
   end 
 end 
