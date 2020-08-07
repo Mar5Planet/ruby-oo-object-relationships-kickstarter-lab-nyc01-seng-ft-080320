@@ -13,5 +13,6 @@ class Backer
       pb = projectbacker.backer == self 
     end 
     
+    
   end 
 end 
