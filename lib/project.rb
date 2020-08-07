@@ -10,6 +10,6 @@ class Project
   end 
   
   def backer 
-    
+    ProjectBacker.all.select do |projectbacker|
   end 
 end 
