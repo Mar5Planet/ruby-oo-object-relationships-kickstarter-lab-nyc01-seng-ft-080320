@@ -13,7 +13,7 @@ class Backer
        projectbacker.backer == self 
     end 
     pb.map do |project|
-      
+      project.project
     end 
     
   end 
