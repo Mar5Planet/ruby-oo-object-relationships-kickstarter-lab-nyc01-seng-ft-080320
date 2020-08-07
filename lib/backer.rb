@@ -12,8 +12,8 @@ class Backer
     pb = ProjectBacker.all.select do |projectbacker|
        projectbacker.backer == self 
     end 
-    pb.map do |project|
-      project.project
+    pb.map do |pb_instance|
+      pb_instance.project
     end 
     
   end 
