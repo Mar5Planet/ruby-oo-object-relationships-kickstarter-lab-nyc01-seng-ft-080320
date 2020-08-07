@@ -15,5 +15,6 @@ class Project
     end
     pb.map do |pb_instance|
       pb.backer
+    end
   end 
 end 
